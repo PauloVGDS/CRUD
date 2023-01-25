@@ -21,3 +21,10 @@ A função show_senhas() controla a checkbox de mostrar a senha.
 
 # Um erro só que funciona kkkk
 A função log() tem uma peculiaridade pois ela funciona de uma forma que pra mim não era pra funcionar, eu estava tendo um erro quando eu queria alternar entre as janelas, quando eu alternava entre duas janelas(entre a janela de registro e login por exemplo) funcionava perfeitamente, porém, se eu alternasse entre as três janelas existentes ele aparentemente não entrava na "except NameError" logo não destruia o frame que eu queria(o de registro) então ele ficava criando frames na mesma janela sem apagar o anteriro enchendo o janela e bagunçando tudo, então, por acaso eu coloquei entro do "finally" o comando pra destruir o frame de registro novamente e isso fez funcionar, eu não entendi o porque mas depois disso eu consegui alternar entre as janelas tranquilamente.
+# Visual
+
+![image](https://user-images.githubusercontent.com/122188615/214656912-193638c3-7ef9-4a6f-9055-d4b35902f363.png)
+
+![image](https://user-images.githubusercontent.com/122188615/214656924-174928cc-f665-4c4f-bb5c-407179eaa34a.png)
+
+![image](https://user-images.githubusercontent.com/122188615/214656935-0b1fc179-4664-4339-9e20-a16f4e93d911.png)
